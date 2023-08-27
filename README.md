@@ -1,67 +1,35 @@
-[<kbd> <br> Back to store button <br> </kbd>][store]
+![GitHub](https://img.shields.io/github/license/JarnotMaciej/FirefoxCSS?style=flat-square) ![GitHub](https://img.shields.io/github/languages/top/JarnotMaciej/FirefoxCSS?style=flat-square) ![GitHub](https://img.shields.io/github/languages/code-size/JarnotMaciej/FirefoxCSS?style=flat-square) 
 
-[store]: https://firefoxcss-store.github.io/
+## Short description
 
-# How to install:
+FirefoxCSS is a compact, beautiful, and minimalistic theme for the Firefox web browser. The main goal was to minify a toolbar, so more content would be displayed in the browser.
 
-### Enable `toolkit.legacyUserProfileCustomizations.stylesheets`
-1. Go to `about:config`
-2. Click on *„Accept the Risk and Continue”*
-3. Doubleclick on `toolkit.legacyUserProfileCustomizations.stylesheets` if it isn't already enabled
+## Screenshots
 
-<details>
-<summary>
-  
-### (Optional) Disable `browser.tabs.searchclipboardfor.middleclick`
-</summary>
+![](https://github.com/JarnotMaciej/FirefoxCSS/assets/92025751/c29c10b7-ff28-4a7f-ad42-e2023f201cf2)
 
-1. Go to `about:config`
-2. Click on *„Accept the Risk and Continue”*
-3. Doubleclick on `browser.tabs.searchclipboardfor.middleclick` if it isn't already disabled
+## Installation
 
-</details>
-<details>
-<summary>
+1. Open Firefox and navigate to `about:config`.
+2. Click on "Accept the Risk and Continue" to proceed.
+3. Double-click on `toolkit.legacyUserProfileCustomizations.stylesheets` to enable it if it's not already enabled.
+4. Clone the FirefoxCSS repository to your local machine.
+5. In Firefox, go to `about:profiles`.
+6. Locate your current profile (indicated as *This is the profile in use and it cannot be deleted*).
+7. Open the root directory of your profile.
+8. Create a folder called `chrome` if it doesn't already exist.
+9. Copy the `userChrome.css` file from the cloned repository into the `chrome` folder.
+10. Copy the entire `window` folder from the cloned repository into the `chrome` folder.
+11. Restart the Firefox browser to apply the theme.
 
-### (Optional) Enable `toolkit.tabbox.switchByScrolling`
-</summary>
+## How to use it?
 
-1. Go to `about:config`
-2. Click on *„Accept the Risk and Continue”*
-3. Doubleclick on `toolkit.tabbox.switchByScrolling` if it isn't already enabled
+Once the installation is complete, the FirefoxCSS theme will be applied automatically. Enjoy the compact, beautiful and minimalistic design!
 
-</details>
+## Credits
 
-### Copy the CSS in your profiles chrome folder
-1. Go to `about:profiles`
-2. Find your profile  --  ( *„This is the profile in use and it cannot be deleted.”* )
-3. Open the profiles root directory
-4. Create a folder called `chrome`
-5. Copy the preferred [<kbd> <br> userChrome.css <br> </kbd>][userChrome.css] and [<kbd> <br> userContent.css <br> </kbd>][userContent.css] there
+This repository is a fork of [Bali10050/FirefoxCSS](https://github.com/Bali10050/FirefoxCSS), with various modifications, removals, and additions. Some code snippets were also sourced from the [denizjcan/Firefox-Safari-15-Theme](https://github.com/denizjcan/Firefox-Safari-15-Theme) repository. The icons used in the theme are taken from Google Material Symbols.
 
-### Restart Firefox
-1. Click on the X button
-2. Doubleclick on the firefox icon
+## Additional Info
 
-***
-
-# Download:
-
-[<kbd> <br> userChrome.css <br> </kbd>][userChrome.css] [<kbd> <br> userContent.css <br> </kbd>][userContent.css]
-
-[userChrome.css]: https://github.com/Bali10050/FirefoxCSS/releases/download/MainRelease/userChrome.css
-[userContent.css]: https://github.com/Bali10050/FirefoxCSS/releases/download/MainRelease/userContent.css
-
-![New devtools screenshot](https://github.com/Bali10050/FirefoxCSS/assets/110120798/8c0ca262-dda8-41bb-8cde-7d0208dcb979)
-
-
-
-
-
-
-
-
-
-
-
-
+Please note that the dark mode is not fully completed at this stage.
