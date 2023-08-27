@@ -1,8 +1,10 @@
+# Essence
+
 ![GitHub](https://img.shields.io/github/license/JarnotMaciej/FirefoxCSS?style=flat-square) ![GitHub](https://img.shields.io/github/languages/top/JarnotMaciej/FirefoxCSS?style=flat-square) ![GitHub](https://img.shields.io/github/languages/code-size/JarnotMaciej/FirefoxCSS?style=flat-square) 
 
 ## Short description
 
-FirefoxCSS is a compact, beautiful, and minimalistic theme for the Firefox web browser. The main goal was to minify a toolbar, so more content would be displayed in the browser.
+Essence is a compact, beautiful, and minimalistic theme for the Firefox web browser. The main goal was to minify a toolbar, so more content would be displayed in the browser.
 
 ## Screenshots
 
@@ -13,7 +15,7 @@ FirefoxCSS is a compact, beautiful, and minimalistic theme for the Firefox web b
 1. Open Firefox and navigate to `about:config`.
 2. Click on "Accept the Risk and Continue" to proceed.
 3. Double-click on `toolkit.legacyUserProfileCustomizations.stylesheets` to enable it if it's not already enabled.
-4. Clone the FirefoxCSS repository to your local machine.
+4. Clone the Essence repository to your local machine.
 5. In Firefox, go to `about:profiles`.
 6. Locate your current profile (indicated as *This is the profile in use and it cannot be deleted*).
 7. Open the root directory of your profile.
@@ -24,7 +26,7 @@ FirefoxCSS is a compact, beautiful, and minimalistic theme for the Firefox web b
 
 ## How to use it?
 
-Once the installation is complete, the FirefoxCSS theme will be applied automatically. Enjoy the compact, beautiful and minimalistic design!
+Once the installation is complete, the Essence theme will be applied automatically. Enjoy the compact, beautiful and minimalistic design!
 
 ## Credits
 
