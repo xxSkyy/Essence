@@ -686,3 +686,18 @@ findbar {
 #tabs-newtab-button > .toolbarbutton-icon {
     list-style-image: url(window/add.svg) !important;    
 }
+
+#ublock0_raymondhill_net-BAP,
+#PanelUI-menu-button,
+#tabs-newtab-button > .toolbarbutton-icon,
+.tab-close-button,
+#stop-button,
+#reload-button,
+#back-button,
+#jetpack-extension_dashlane_com-BAP,
+#permissions-granted-icon,
+#forward-button {
+  filter: invert(1);
+  mix-blend-mode: difference;
+}
+
