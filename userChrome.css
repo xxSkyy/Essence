@@ -342,7 +342,11 @@
     appearance: none !important;
 }
 .titlebar-close:hover {
-    background-color: #f44 !important;
+	background-color: color-mix(
+	in srgb,
+	currentColor 17%,
+	transparent
+	) !important;
     list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers;fill:%23ffffff' /%3E%3C/svg%3E%0A") !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -353,7 +357,11 @@
     appearance: none !important;
 }
 .titlebar-close:active {
-    background-color: #f33 !important;
+    background-color: color-mix(
+        in srgb,
+        currentColor 30%,
+        transparent
+    ) !important;
     list-style-image: url("data:image/svg+xml,%3Csvg width='40' height='30' version='1.1' viewBox='0 0 40 30' xmlns='http://www.w3.org/2000/svg'%3E%3Ctitle%3EVetro%3C/title%3E%3Cpath transform='matrix(3.7796 0 0 3.7795 -165 -533.51)' d='m47.718 143.71-0.18707 0.18706 1.2294 1.2294-1.2294 1.2289 0.18707 0.18707 1.2294-1.2289 1.2289 1.2289 0.18707-0.18707-1.2289-1.2289 1.2289-1.2294-0.18707-0.18706-1.2289 1.2294z' fill='currentColor' style='paint-order:stroke fill markers;fill:%23ffffff' /%3E%3C/svg%3E%0A") !important;
     margin: 0 !important;
     padding: 0 !important;
@@ -696,8 +704,15 @@ findbar {
 #back-button,
 #jetpack-extension_dashlane_com-BAP,
 #permissions-granted-icon,
+#alltabs-button .toolbarbutton-icon,
 #forward-button {
   filter: invert(1);
   mix-blend-mode: difference;
+}
+
+.titlebar-button
+{
+  mix-blend-mode: difference;
+  filter: invert(0.5);
 }
 
