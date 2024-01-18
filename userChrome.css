@@ -611,7 +611,7 @@ findbar {
 #reader-mode-button,
 #tracking-protection-icon-container,
 #star-button-box,
-#unified-extensions-button, /* Addons -> Comment, pin addons, uncomment */
+/* #unified-extensions-button,  Addons -> Comment, pin addons, uncomment */
 #identity-icon-box {
     display: none !important;
 }
