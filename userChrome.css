@@ -33,6 +33,15 @@
   ); /*  Only on small layout  */ /*  Default: calc(var(--TabsHeight) + var(--TabsBorder))  */ /*  Default as a number: 44  */
 }
 
+#TabsToolbar {
+  margin-left: 78px !important;
+}
+
+#scrollbutton-up,
+#scrollbutton-down {
+  display: none !important;
+}
+
 @media screen and (min-width: 1325px) /* Only the tabs space will grow from here */ {
   :root #nav-bar {
     margin-top: calc(
@@ -164,7 +173,7 @@
   fill: FieldText !important;
   background: none !important;
   opacity: 20%;
-  padding-right: 20px !important;
+  /* padding-right: 20px !important; */
   padding-left: 4px !important;
   -moz-window-dragging: var(--WindowDraggingFromNewtabButton);
 }
@@ -174,7 +183,7 @@
   color: transparent !important;
   fill: FieldText !important;
   opacity: 90%;
-  padding-right: 20px !important;
+  /* padding-right: 20px !important; */
   background: none !important;
   padding-left: 4px !important;
   -moz-window-dragging: var(--WindowDraggingFromNewtabButton);
